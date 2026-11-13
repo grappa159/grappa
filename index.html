@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grappa — итальянский рестобар в Перми</title>
+  <meta name="description" content="Grappa — Italiano restobar на Куйбышева, 56А. Неаполитанская пицца, паста ручной работы, бар и летняя веранда. Бронирование столов и банкеты.">
+  <!-- Демо-версия: не индексировать до согласования с владельцем -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#14352a">
+  <meta property="og:title" content="Grappa — итальянский рестобар в Перми">
+  <meta property="og:description" content="Неаполитанская пицца, паста ручной работы, бар и летняя веранда.">
+  <meta property="og:image" content="img/hero.jpg">
+  <link rel="icon" href="img/logo-dark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__row">
+    <a href="#top" class="header__logo" aria-label="Grappa — на главную">
+      <img src="img/logo-light.png" alt="Grappa Italiano Restobar" width="150" height="53">
+    </a>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#about">О нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#lunch">Ланч</a>
+      <a href="#events">Банкеты</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contacts">Контакты</a>
+      <a href="tel:+73422347212" class="nav__phone">+7 (342) 234-72-12</a>
+    </nav>
+    <button class="btn btn--gold header__cta" data-book>Забронировать</button>
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img class="hero__bg" src="img/hero.jpg" alt="Зал ресторана Grappa">
+    <div class="hero__shade"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title"><img src="img/logo-light.png" alt="Grappa" width="846" height="299"></h1>
+      <p class="hero__sub">Итальянский рестобар <em>в центре Перми</em></p>
+      <p class="hero__lead">Неаполитанская пицца, паста ручной работы, авторские коктейли и настойки на граппе. Куйбышева, 56А, 2 этаж.</p>
+      <div class="hero__actions">
+        <button class="btn btn--gold" data-book>Забронировать стол</button>
+        <a class="btn btn--ghost" href="#menu">Смотреть меню</a>
+      </div>
+      <ul class="hero__badges">
+        <li><strong>5,0</strong> на Яндекс Картах · 897 оценок</li>
+        <li>«Хорошее место 2026»</li>
+        <li id="openStatus">Ежедневно с 12:00</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container about__grid">
+      <div class="about__text">
+        <p class="eyebrow">Benvenuti</p>
+        <h2 class="h2">Итальянская кухня, бар&nbsp;и&nbsp;атмосфера, ради которой возвращаются</h2>
+        <p>Высокие потолки, хрустальные люстры, лепнина и светящаяся барная стойка. Grappa создавали как кусочек Италии, где одинаково хорошо зайти на быстрый ланч и остаться на долгий ужин.</p>
+        <p>Бренд-шеф сам выходит в зал и спрашивает гостей о блюдах. Паста здесь ручной работы, пицца неаполитанская, а в баре есть коктейли и настойки на граппе.</p>
+        <ul class="features">
+          <li><b>Паста</b><span>ручной работы</span></li>
+          <li><b>Пицца</b><span>неаполитанская</span></li>
+          <li><b>Бар</b><span>коктейли и кальяны</span></li>
+          <li><b>Веранда</b><span>летом</span></li>
+        </ul>
+      </div>
+      <div class="about__photos">
+        <img src="img/int8.jpg" alt="Зал с лепниной" loading="lazy" class="about__p1">
+        <img src="img/f-pasta.jpg" alt="Паста с томатами" loading="lazy" class="about__p2">
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE -->
+  <section class="section section--dark" id="signature">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--gold">La nostra cucina</p>
+        <h2 class="h2">Что заказывают чаще всего</h2>
+      </div>
+      <div class="dishes">
+        <figure class="dish"><img src="img/f-pizza2.jpg" alt="Неаполитанская пицца" loading="lazy"><figcaption><b>Неаполитанская пицца</b><span>Пышный борт и 10 вариантов начинки</span><i>от 830 ₽</i></figcaption></figure>
+        <figure class="dish"><img src="img/f-ravioli.jpg" alt="Паппарделле" loading="lazy"><figcaption><b>Паста ручной работы</b><span>Тальятелле, паппарделле, казаречче</span><i>от 670 ₽</i></figcaption></figure>
+        <figure class="dish"><img src="img/f-tuna.jpg" alt="Тунец с авокадо" loading="lazy"><figcaption><b>Салат с тунцом и авокадо</b><span>Тунец, авокадо, черри, моцарелла</span><i>890 ₽</i></figcaption></figure>
+        <figure class="dish"><img src="img/f-steak.jpg" alt="Блюдо с гриля" loading="lazy"><figcaption><b>Гриль</b><span>Филе миньон, стейк лосося, креветки</span><i>от 490 ₽</i></figcaption></figure>
+        <figure class="dish"><img src="img/f-pasta2.jpg" alt="Паста с креветками и страчателлой" loading="lazy"><figcaption><b>Тальятелле с креветками</b><span>И страчателлой из Апулии</span><i>1 090 ₽</i></figcaption></figure>
+        <figure class="dish"><img src="img/f-brusk.jpg" alt="Брускетты" loading="lazy"><figcaption><b>Брускетты</b><span>С ростбифом, лососем или моцареллой</span><i>от 490 ₽</i></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Menu</p>
+        <h2 class="h2">Меню</h2>
+        <p class="muted">Цены в рублях. Меню обновлено в ноябре 2026 года, актуальные позиции уточняйте у официанта.</p>
+      </div>
+      <div class="tabs" id="menuTabs" role="tablist"></div>
+      <div class="menu__list" id="menuList"></div>
+      <div class="menu__set">
+        <div>
+          <p class="eyebrow eyebrow--gold">Российский ресторанный фестиваль</p>
+          <h3>Фестивальный сет — 2026 ₽</h3>
+          <p>Четыре хита Grappa от бренд-шефа: аранчини с креветками, тартар из телятины со страчателлой, пицца «Ростбиф тоннато» и тирамису.</p>
+        </div>
+        <button class="btn btn--gold" data-book="Хочу забронировать стол и попробовать фестивальный сет">Забронировать</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- LUNCH -->
+  <section class="section section--cream lunch" id="lunch">
+    <div class="container lunch__grid">
+      <div class="lunch__img"><img src="img/f-salad.jpg" alt="Салат" loading="lazy"></div>
+      <div>
+        <p class="eyebrow">Siesta-ланч</p>
+        <h2 class="h2">Обед, который предсказывает удачу</h2>
+        <p>Порции большие, подача быстрая. Собирайте ланч из позиций ниже.</p>
+        <ul class="price-list" id="lunchList"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="section section--dark events" id="events">
+    <img class="events__bg" src="img/int4.jpg" alt="" loading="lazy">
+    <div class="container events__grid">
+      <div>
+        <p class="eyebrow eyebrow--gold">Feste &amp; banchetti</p>
+        <h2 class="h2">Банкеты, корпоративы и дни рождения</h2>
+        <p>Новогодний корпоратив в стиле Dolce Vita, свадьба, день рождения или деловой ужин: подберём меню, рассадку и программу под ваш повод.</p>
+        <ul class="tags">
+          <li>Корпоратив</li><li>Банкет</li><li>Свадьба</li><li>День рождения</li><li>Деловая встреча</li><li>Семейный ужин</li>
+        </ul>
+      </div>
+      <form class="card form" id="eventForm">
+        <h3>Заявка на мероприятие</h3>
+        <label>Имя<input name="name" required autocomplete="given-name"></label>
+        <label>Телефон<input name="phone" type="tel" required autocomplete="tel" placeholder="+7"></label>
+        <div class="form__row">
+          <label>Дата<input name="date" type="date" required></label>
+          <label>Гостей<input name="guests" type="number" min="5" max="200" value="15" required></label>
+        </div>
+        <label>Повод
+          <select name="type"><option>Корпоратив</option><option>Банкет</option><option>День рождения</option><option>Свадьба</option><option>Деловая встреча</option><option>Другое</option></select>
+        </label>
+        <button class="btn btn--gold btn--full" type="submit">Отправить в WhatsApp</button>
+        <p class="form__note">Откроется WhatsApp с готовым сообщением для ресторана.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Galleria</p>
+        <h2 class="h2">Интерьер и блюда</h2>
+      </div>
+      <div class="masonry" id="masonry">
+        <img src="img/veranda.jpg" alt="Летняя веранда" loading="lazy">
+        <img src="img/int6.jpg" alt="Бар" loading="lazy">
+        <img src="img/f-board.jpg" alt="Сет для компании" loading="lazy">
+        <img src="img/int10.jpg" alt="Бархатные кресла" loading="lazy">
+        <img src="img/int1.jpg" alt="Зал" loading="lazy">
+        <img src="img/f-risotto.jpg" alt="Ужин в Grappa" loading="lazy">
+        <img src="img/int7.jpg" alt="Барная стойка" loading="lazy">
+        <img src="img/int5.jpg" alt="Логотип в зале" loading="lazy">
+        <img src="img/bar.jpg" alt="Кальяны и бар" loading="lazy">
+        <img src="img/f-salad2.jpg" alt="Салат" loading="lazy">
+        <img src="img/int9.jpg" alt="Бар с зеленью" loading="lazy">
+        <img src="img/int11.jpg" alt="Чайная церемония" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section section--cream reviews">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Recensioni</p>
+        <h2 class="h2">5,0 из 827 отзывов</h2>
+        <p class="muted">Еда — 99% положительных, атмосфера — 99%, персонал — 96%.</p>
+      </div>
+      <div class="reviews__grid">
+        <blockquote class="card"><p>«Тирамису здесь просто лучший из того, что я пробовала! За настоящей пастой и пиццей — теперь только к вам»</p><cite>Елена · Яндекс Карты</cite></blockquote>
+        <blockquote class="card"><p>«Комфортно прийти сюда в ланч — будет быстро и вкусно, а вечером атмосфера такая, что можно никуда не торопиться»</p><cite>Гостья · Яндекс Карты</cite></blockquote>
+        <blockquote class="card"><p>«Шеф-повар подходит к столикам и спрашивает, как блюда. Такое ощущение, что мы побывали в Италии»</p><cite>Ирина · Яндекс Карты</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section contacts" id="contacts">
+    <div class="container contacts__grid">
+      <div>
+        <p class="eyebrow">Contatti</p>
+        <h2 class="h2">Ждём в гости</h2>
+        <dl class="info">
+          <dt>Адрес</dt><dd>Пермь, ул. Куйбышева, 56А, 2 этаж</dd>
+          <dt>Телефон</dt><dd><a href="tel:+73422347212">+7 (342) 234-72-12</a></dd>
+          <dt>Часы работы</dt><dd id="hoursList"></dd>
+          <dt>Средний чек</dt><dd>1 200–1 800 ₽</dd>
+          <dt>Удобства</dt><dd>Wi-Fi, парковка, оплата картой и СБП, можно с собакой, еда и кофе навынос</dd>
+        </dl>
+        <div class="socials">
+          <a class="btn btn--dark" href="https://wa.me/79091047212" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--dark" href="https://t.me/Grappa_restobar" target="_blank" rel="noopener">Telegram</a>
+          <a class="btn btn--dark" href="https://vk.ru/grappa_perm" target="_blank" rel="noopener">ВКонтакте</a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe src="https://yandex.ru/map-widget/v1/?ll=56.240762%2C58.001161&z=16&oid=57303955635&ol=biz" title="Grappa на Яндекс Картах" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <img src="img/logo-light.png" alt="Grappa" width="120" height="42">
+    <p>© 2026 Grappa · Italiano restobar · Пермь, Куйбышева, 56А</p>
+    <button class="btn btn--gold" data-book>Забронировать</button>
+  </div>
+</footer>
+
+<!-- Демо-плашка разработчика (убрать после согласования) -->
+<div class="demo-badge" id="demoBadge">
+  <span>Демо-версия сайта</span>
+  <a id="devLink" href="#" target="_blank" rel="noopener"></a>
+  <button aria-label="Скрыть" id="demoClose">×</button>
+</div>
+
+<!-- BOOKING MODAL -->
+<dialog class="modal" id="bookModal">
+  <form class="form" id="bookForm" method="dialog">
+    <button class="modal__close" value="cancel" formnovalidate aria-label="Закрыть">×</button>
+    <p class="eyebrow">Prenotazione</p>
+    <h3>Забронировать стол</h3>
+    <label>Имя<input name="name" required autocomplete="given-name"></label>
+    <label>Телефон<input name="phone" type="tel" required autocomplete="tel" placeholder="+7"></label>
+    <div class="form__row">
+      <label>Дата<input name="date" type="date" required></label>
+      <label>Время<input name="time" type="time" value="19:00" required></label>
+    </div>
+    <label>Гостей<input name="guests" type="number" min="1" max="30" value="2" required></label>
+    <label>Комментарий<input name="comment" placeholder="Например, у окна или на веранде"></label>
+    <button class="btn btn--gold btn--full" type="submit" value="ok">Отправить в WhatsApp</button>
+    <p class="form__note">Или позвоните: <a href="tel:+73422347212">+7 (342) 234-72-12</a></p>
+  </form>
+</dialog>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" hidden><img alt=""><button aria-label="Закрыть">×</button></div>
+
+<script src="app.js"></script>
+</body>
+</html>
