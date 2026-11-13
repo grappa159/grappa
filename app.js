@@ -4,7 +4,7 @@
 const CONFIG = {
   whatsapp: '79091047212',          // номер ресторана для заявок
   // Плашка «Демо-версия» внизу слева. Уберите после согласования (showDemoBadge: false)
-  showDemoBadge: true,
+  showDemoBadge: false,
   devName: 'Разработчик: Иван',
   devLink: '',                      // например 'https://t.me/your_nick'
   // Часы работы: индекс 0 = воскресенье … 6 = суббота. null — нет данных
